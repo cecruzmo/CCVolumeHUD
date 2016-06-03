@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCVolumeHUD"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "CCVolumeHUD changes the default volume HUD for a unobtrusive volume HUD displayed at the status bar"
   s.description  = "Ideal for video apps: change the default volume HUD for a small line volume indicator displayed at the status bar"
 
