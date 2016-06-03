@@ -29,9 +29,9 @@ import QuartzCore
 
 class CCVolumeHUD: NSObject {
   
-  static let sharedInstance = CCVolumeHUD()
-  let volumeView = MPVolumeView.init(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, 21))
-  let dismissTime = 2.0
+  public static let sharedInstance = CCVolumeHUD()
+  public let volumeView = MPVolumeView.init(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, 21))
+  public let dismissTime = 2.0
   
   private let outputVolumeKeyPath = "outputVolume"
   private let statusBarHeight: CGFloat = 21.0
